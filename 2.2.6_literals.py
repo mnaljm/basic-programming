@@ -1,0 +1,2 @@
+# For at understøtte vores citationstegn bruger vi apostrofer til at indramme strengen og så escapetegn til apostrofern i teksen. Vi bruger også escapetegn til at lave nye linjer.
+print('"I\'m"\n""learning""\n"""Python"""')
