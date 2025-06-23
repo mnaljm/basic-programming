@@ -1,5 +1,5 @@
 floatA =float(input("Enter the first float number: "))
-floatB =float
+floatB =float(input("Enter the second float number: "))
 
 #output the result of addition here
 print("Addition result:", floatA + floatB)
