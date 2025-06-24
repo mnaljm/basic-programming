@@ -1,11 +1,22 @@
 # Ved at bruge escape karakteren kan vi lave printen af pilen på en linje
-print("    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *\n  *****")
+arrow_lines = [
+    "        **        ",
+    "       *  *       ",
+    "      *    *      ",
+    "     *      *     ",
+    "    ***    ***    ",
+    "      *    *      ",
+    "      *    *      ",
+    "      ******      "
+]
+for line in arrow_lines:
+    print(line + "  " + line)
 
-# print("    *")
-# print("   * *")
-# print("  *   *")
-# print(" *     *")
-# print("***   ***")
-# print("  *   *")
-# print("  *   *")
-# print("  *****")
+# Try removing a quote or parenthesis below to see the error:
+# print("This will cause an error)
+
+# Try changing print to Print:
+# Print("Case matters in Python!")
+
+# Try using apostrophes instead of quotes:
+# print('This works too!')
